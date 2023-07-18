@@ -69,21 +69,9 @@ header{
     margin: 0 auto;
     display: flex;
     padding: 40px;
+    border-image-width: 1rem;
 }
 
-.feature-layout{
-    flex-basis: 20%;
-    max-width: 20%;
-    margin-top: 50px;
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.b-full{
-    padding: 40px;
-    margin-left: -40px;
-    margin-top: -40px;
-}
 
 
 .btn {
@@ -101,11 +89,15 @@ header{
     justify-content: center;
 }
 .box-a{
-    width: 300px;
+    width: 400px;
     padding: 80px;
     font-size: 18px;
     background: #353b48;
     margin: 20px;
+    border-radius: 1rem;
+}
+.size{
+    width: 700px;
 }
 
 .container-b{
@@ -119,6 +111,7 @@ header{
     font-size: 18px;
     background: #353b48;
     margin: 20px;
+    border-radius: 1rem;
 }
 
 .container-c{
@@ -127,15 +120,23 @@ header{
     justify-content: center;
 }
 .box-c{
-    width: 300px;
+    width: 10px;
     padding: 80px;
     font-size: 18px;
     background: #353b48;
     margin: 20px;
+    border-radius: 1rem;
+}
+.size-c{
+    width: 500px;
+}
+.size-e{
+    width: 400px;
 }
 
 .text-a{
     color: white;
+    text-indent: -50px;
 }
 .text-b{
     color: white;
