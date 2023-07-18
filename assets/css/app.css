@@ -145,19 +145,37 @@ header{
     color: white;
 }
 
-.footerContainer{
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+footer{
     background-color: #f1c40f;
-    width: 1509px;
-    padding: 5px;
 }
 
-ul{
-    color: #353b48;
-    font-weight: bold;
-    display: inline;
-    list-style: none;
-    text-align: right;
+footer li{
+    display: inline-block;
+    margin: 30px;
 }
+.footer-menu{
+    padding-right: 200px;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    color: #353b48;
+}
+.footer-copyright{
+    padding-right: 1200px;
+    text-decoration: none;
+    color: #353b48;
+}
+.reserved{
+    font-weight: bold;
+}
+
+
 
 
 
