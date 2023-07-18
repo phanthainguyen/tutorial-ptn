@@ -145,4 +145,24 @@ header{
     color: white;
 }
 
+.footerContainer{
+    background-color: #f1c40f;
+    width: 1509px;
+    padding: 5px;
+}
+
+.footerNav ul{
+   padding: 15px;
+    list-style: none;
+    color: #353b48;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.reserved{
+    font-weight: bold;
+}
+
 
