@@ -30,7 +30,7 @@ nav{
 }
 
 .bg-color{
-    background: #222f3e;
+    background: #353b48;
 }
 
 header{
@@ -133,4 +133,15 @@ header{
     background: #353b48;
     margin: 20px;
 }
+
+.text-a{
+    color: white;
+}
+.text-b{
+    color: white;
+}
+.text-c{
+    color: white;
+}
+
 
