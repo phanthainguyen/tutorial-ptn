@@ -151,18 +151,14 @@ header{
     padding: 5px;
 }
 
-.footerNav ul{
-   padding: 15px;
-    list-style: none;
+ul{
     color: #353b48;
-    font-size: 1rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    font-weight: bold;
+    display: inline;
+    list-style: none;
+    text-align: right;
 }
 
-.reserved{
-    font-weight: bold;
-}
+
 
 
