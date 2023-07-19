@@ -1,8 +1,9 @@
 body{
-    font-family: Arial, serif;
+    font-family: Roboto Mono, monospace;
     margin: 0;
     padding: 0;
     background: black;
+    font-weight: bold;
 }
 .img-logo{
     width: 3rem;
@@ -13,7 +14,7 @@ body{
     color: white;
     margin-left: 1.5rem;
     font-size: 1.5rem;
-    font-weight: bold
+    font-weight: bold;
 }
 
 .logo-field{
@@ -30,39 +31,27 @@ nav{
 }
 
 .bg-color{
-    background: #353b48;
+    background: #1a1d20;
 }
 
 header{
     padding: 0.5rem;
 }
 .menu ul{
-    padding: 1.5px;
+    padding: 2px;
     list-style: none;
-    color: white;
-    font-size: 1rem;
-    font-weight: bold;
+    color: #57606f;
+    font-size: 0.8rem;
 }
 
 
 .menu ul li {
     display: inline;
     padding: 0.1rem;
-    margin: 10px;
+    margin: 20px;
     text-transform: uppercase;
 }
 
-.search{
-    width: 2rem;
-    padding: 0.5rem;
-}
-.img-icon{
-    width: 100%;
-}
-
-.btn-hire-me{
-    font-weight: bold;
-}
 
 .a-full{
     width: 50%;
@@ -76,12 +65,17 @@ header{
 
 .btn {
     border: none;
-    color: white;
-    padding: 30px 40px;
+    color: black;
+    padding: 15px 15px;
     cursor: pointer;
+    border-radius: 1rem;
+    font-weight: bold;
 }
-.hireme {background-color: #f1c40f;}
-.hireme:hover {background: #f1c40f;}
+.btn{
+    background-color: #f1c40f;
+}
+.btn:hover{background: #f9ca24;
+}
 
 .container-a{
     display: flex;
@@ -92,7 +86,7 @@ header{
     width: 400px;
     padding: 80px;
     font-size: 18px;
-    background: #353b48;
+    background: #1a1d20;
     margin: 20px;
     border-radius: 1rem;
 }
@@ -109,7 +103,7 @@ header{
     width: 300px;
     padding: 80px;
     font-size: 18px;
-    background: #353b48;
+    background: #1a1d20;
     margin: 20px;
     border-radius: 1rem;
 }
@@ -123,7 +117,7 @@ header{
     width: 10px;
     padding: 80px;
     font-size: 18px;
-    background: #353b48;
+    background: #1a1d20;
     margin: 20px;
     border-radius: 1rem;
 }
@@ -135,14 +129,20 @@ header{
 }
 
 .text-a{
-    color: white;
+    color: #57606f;
     text-indent: -50px;
 }
 .text-b{
-    color: white;
+    color: #57606f;
+    text-indent: -50px;
 }
 .text-c{
-    color: white;
+    color: #57606f;
+    text-indent: -50px;
+}
+.text-d{
+    color: #57606f;
+    text-indent: -70px;
 }
 
 *{
@@ -152,27 +152,31 @@ header{
 }
 footer{
     background-color: #f1c40f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 footer li{
     display: inline-block;
-    margin: 30px;
+    padding: 1rem;
 }
-.footer-menu{
-    padding-right: 200px;
-    text-decoration: none;
-    display: flex;
-    justify-content: right;
-    font-weight: bold;
-    color: #353b48;
-}
-.footer-copyright{
-    padding-right: 1200px;
+.footer-copyright {
+    padding-right: 20px;
     text-decoration: none;
     color: #353b48;
 }
 .reserved{
     font-weight: bold;
+}
+
+.footer-menu{
+    padding-left: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    color: #353b48;
 }
 
 
