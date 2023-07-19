@@ -123,7 +123,18 @@ header{
 }
 .size-c{
     width: 500px;
+    background-color: #f1c40f;
+    display: flex;
+    font-size: 1rem;
+    display: flex;
+    text-align: center;
 }
+
+p{
+    font-weight:  normal;
+    color: black;
+}
+
 .size-e{
     width: 400px;
 }
