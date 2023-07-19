@@ -5,6 +5,7 @@ body{
     background: black;
     font-weight: bold;
 }
+
 .img-logo{
     width: 3rem;
     height: auto;
@@ -83,16 +84,19 @@ header{
     justify-content: center;
 }
 .box-a{
-    width: 400px;
-    padding: 80px;
+    display: flex;
+    width: 50%;
+    padding: 5rem;
     font-size: 18px;
     background: #1a1d20;
-    margin: 20px;
+    margin: 100px;
+    margin-top: 0.1rem;
     border-radius: 1rem;
 }
 .size{
-    width: 700px;
+    width: 70%;
 }
+
 
 .container-b{
     display: flex;
@@ -100,11 +104,12 @@ header{
     justify-content: center;
 }
 .box-b{
-    width: 300px;
-    padding: 80px;
+    width: 40%;
+    padding: 5rem;
     font-size: 18px;
     background: #1a1d20;
-    margin: 20px;
+    margin: 100px;
+    margin-top: -4rem;
     border-radius: 1rem;
 }
 
@@ -131,6 +136,10 @@ header{
 }
 
 p{
+    font-weight:  bold;
+    color: #57606f;
+}
+.p-1{
     font-weight:  normal;
     color: black;
 }
@@ -189,9 +198,4 @@ footer li{
     font-weight: bold;
     color: #353b48;
 }
-
-
-
-
-
 
