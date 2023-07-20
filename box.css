@@ -1,0 +1,87 @@
+body{
+    font-family: Roboto Mono, monospace;
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-weight: bold;
+}
+.contain-box-a{
+    min-width: 50rem;
+    flex-direction:row;
+    border:1px solid;
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+
+.left-box{
+    width:50%;
+    padding:1rem;
+    margin-bottom:1rem;
+}
+.right-box{
+    width:70%;
+    padding:1rem;
+    margin-bottom:1rem;
+}
+.box-a{
+    background-color: #1a1d20;
+    border:1px solid;
+    padding:5rem;
+    border-radius:1rem;
+}
+
+
+.contain-box-b{
+    min-width: 50rem;
+    flex-direction:row;
+    border:1px solid;
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+.box-1 {
+    width: 40%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.box-b{
+    background-color: #1a1d20;
+    border:1px solid;
+    padding:5rem;
+    border-radius:1rem;
+}
+
+
+.contain-box-c{
+    min-width: 50rem;
+    flex-direction:row;
+    border:1px solid;
+    padding:1rem;
+    display:flex;
+    justify-content:space-between;
+}
+.box-2{
+    width:50%;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.box-3{
+    width:40%;
+    padding:1rem;
+    margin-bottom:1rem;
+}
+.box-4{
+    width:30%;
+    padding:1rem;
+    margin-bottom:1rem;
+}
+.box-c{
+    background-color: #1a1d20;
+    border:1px solid;
+    padding:5rem;
+    border-radius:1rem;
+}
+
+
+
