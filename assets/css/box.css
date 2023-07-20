@@ -155,5 +155,46 @@ header{
     border-radius:1rem;
 }
 
+p{
+    font-weight: normal;
+    color: #57606f;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+footer{
+    background-color: #f1c40f;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li{
+    display: inline-block;
+    padding: 1rem;
+}
+.footer-copyright {
+    padding-right: 20px;
+    text-decoration: none;
+    color: #353b48;
+}
+.reserved{
+    font-weight: bold;
+}
+
+.footer-menu{
+    padding-left: 10px;
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    font-weight: bold;
+    color: #353b48;
+}
+
+
+
 
 
