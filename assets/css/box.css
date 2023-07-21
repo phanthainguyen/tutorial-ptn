@@ -102,6 +102,13 @@ header{
     padding:5rem;
     border-radius:1rem;
 }
+.list-box-a{
+    color: #57606f;
+    padding: 1rem;
+    flex-direction: column;
+    display: flex;
+    justify-items: right;
+}
 
 
 .contain-box-b{
@@ -154,6 +161,12 @@ header{
     padding:5rem;
     border-radius:1rem;
 }
+.box-c-1{
+    background-color: #f1c40f;
+    border:1px solid;
+    padding:5rem;
+    border-radius:1rem;
+}
 
 p{
     font-weight: normal;
@@ -179,7 +192,7 @@ footer li{
 .footer-copyright {
     padding-right: 20px;
     text-decoration: none;
-    color: #353b48;
+    color: black;
 }
 .reserved{
     font-weight: bold;
@@ -191,10 +204,18 @@ footer li{
     display: flex;
     justify-content: right;
     font-weight: bold;
-    color: #353b48;
+    color: black;
 }
 
+.p-1{
+    color: black;
+}
 
+.p-2{
+    color: white;
+    font-weight: bold;
+    font-size: larger;
+}
 
 
 
